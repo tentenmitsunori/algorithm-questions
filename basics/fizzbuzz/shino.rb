@@ -1,6 +1,6 @@
 (0..100).each do |i|
-  fizz = (i%3).zero? ? true : false
-  buzz = (i%5).zero? ? true : false
+  fizz = (i%3).zero?
+  buzz = (i%5).zero?
   if fizz && buzz
     puts "fizzbuzz"
   elsif fizz

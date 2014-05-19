@@ -1,5 +1,3 @@
-# If array size is 1 then return first value in array.
-# Otherwise, exec min_value to splited arrays recursively.
 def min_value(random_array)
   return random_array.shift if random_array.size == 1
   min_value_left  = min_value(random_array[0..random_array.size/2-1])
